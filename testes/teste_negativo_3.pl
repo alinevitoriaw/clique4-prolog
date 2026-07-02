@@ -1,12 +1,10 @@
 adj(a,b). adj(b,a).
 adj(a,c). adj(c,a).
+adj(a,d). adj(d,a).
 adj(b,c). adj(c,b).
+adj(b,d). adj(d,b).
 
-adj(c,d). adj(d,c).
-
-adj(d,e). adj(e,d).
-adj(d,f). adj(f,d).
-adj(e,f). adj(f,e).
+adj(a,e). adj(e,a).
 
 clique4 :-
     adj(A, B), adj(A, C), adj(A, D),
